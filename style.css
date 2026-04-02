@@ -220,10 +220,6 @@ h2 {
 }
 
 /* Projects */
-#projects {
-    /* Note: HTML id="project", can change or add */
-}
-
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -250,17 +246,14 @@ h2 {
     margin-bottom: 1rem;
     font-size: 1.4rem;
 }
-
 .project-card p {
     color: #64748b;
     margin-bottom: 1.5rem;
 }
-
 .project-links {
     display: flex;
     gap: 1rem;
 }
-
 .project-links a {
     color: var(--primary-color);
     text-decoration: none;
